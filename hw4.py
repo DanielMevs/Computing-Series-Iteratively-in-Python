@@ -32,7 +32,7 @@ def p4(x, N):
     s= 0.0 #running sum
     for n in range(N+1):
         fact=1
-        for i in range(1,(2*n)):
+        for i in range(1,(2*n+1)):
             fact*=i
         t = (((-1)**n)*(x**(2*n)))/fact
         s+=t
