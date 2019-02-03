@@ -16,7 +16,7 @@ def p2(x,N):
         for i in range(1,n+1):
             fact*=i
         s+=(x**n)/fact
-    print("For E the last term is: ", (x**N)/fact,"\nSum is: ", s)
+    print("For E the last term is: ", (x**N)/fact,"\nSum is: ", s,"\nexp(x) is: ", math.exp(x), "\n")
 
 def p3(x, N):
     s= 0.0 #running sum
@@ -26,7 +26,8 @@ def p3(x, N):
             fact*=i
         t = (((-1)**n)*(x**(2*n+1)))/fact
         s+=t
-    print("For S the last term is: ", t,"\nSum is: ", s)
+    print("For E the last term is: ", (x**N)/fact,"\nSum is: ", s,"\nsin(x) is: ", math.sin(x), "\n")
+
 
 def p4(x, N):
     s= 0.0 #running sum
@@ -36,7 +37,8 @@ def p4(x, N):
             fact*=i
         t = (((-1)**n)*(x**(2*n)))/fact
         s+=t
-    print("For C the last term is: ", t,"\nSum is: ", s)
+    print("For E the last term is: ", (x**N)/fact,"\nSum is: ", s,"\ncos(x) is: ", math.cos(x), "\n")
+
 
                 
 
