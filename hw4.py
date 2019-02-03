@@ -1,4 +1,8 @@
 import math
+"""
+    Daniel Mevs
+    Homework number 4
+"""
 
 def p1():
     x = float(input("Please input  a value for x: "))
@@ -35,11 +39,7 @@ def p4(x, N):
     print("For C the last term is: ", t,"\nSum is: ", s)
 
                 
-import math
-"""
-    Daniel Mevs
-    Homework number 3
-"""
+
 def main():
                        
     x = p1()
