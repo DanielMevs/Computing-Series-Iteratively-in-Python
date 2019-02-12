@@ -66,7 +66,7 @@ def main():
 
    
     x = p1()
-    n = 86
+    n = 50
     print("Using N=", n, "\n")
     #sol = p2(x, n)
     p2(x, n)
