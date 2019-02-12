@@ -1,7 +1,7 @@
 import math
 """
     Daniel Mevs
-    Homework number 4
+    Homework number 4 Extra Credit
 """
 
 def p1():
@@ -27,6 +27,7 @@ def p2(x,N):
 def p3(x, N):
     if(x == 0):
         return 0
+    x = float(x)
     tn = 1.0
     prev_fact = 1.0
     s= 0.0
@@ -65,8 +66,8 @@ def main():
 
    
     x = p1()
-    n = 10
-    print("Using N=10\n")
+    n = 86
+    print("Using N=", n, "\n")
     #sol = p2(x, n)
     p2(x, n)
     #sol = p3(x, n)
